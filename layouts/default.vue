@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center backdrop-blur-2xl fixed w-full">
+  <div class="flex justify-center backdrop-blur-sm fixed w-full">
     <div class="flex flex-row justify-between items-center w-full max-w-[1344px]">
       <div class="">
         <img class="h-[80px]" src="/images/logo.png" alt="">
