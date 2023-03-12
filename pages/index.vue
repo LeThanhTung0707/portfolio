@@ -23,7 +23,7 @@
       </div>
     </section>
     <section class="w-full flex flex-col justify-center items-center mt-[-18rem] mb-12">
-      <div class="max-w-[1000px] grid grid-cols-2 w-full rounded-3xl overflow-hidden border-[1px]">
+      <div class="max-w-[1000px] grid grid-cols-2 w-full rounded-3xl overflow-hidden border-[1px] shadow-lg">
         <div class=" bg-white w-full flex flex-col items-center justify-start border-r-[1px]">
           <div class="my-20 flex flex-col items-center justify-start">
             <div class="flex items-center justify-center pt-10 pb-4 mt-8">
@@ -33,7 +33,7 @@
               Frontend Developer
             </div>
             <div class="text-center px-10 h-20">Builds the front-end portion of websites and web applications—the part users see and interact with.</div>
-            <div class="pt-7 pb-4 text-[20px] text-[#79ACD9]">Skill</div>
+            <div class="pt-7 pb-4 text-[20px] text-[#79ACD9] font-bold">Skill</div>
             <div class="grid grid-cols-4 gap-4 mt-8 ">
               <div class="hover:scale-110 w-[64px] h-[64px] text-[64px] flex items-center text-orange-600" title="HTML"><i class="ri-html5-fill"></i></div>
               <div class="hover:scale-110 w-[64px] h-[64px]"><img class="w-[64px] h-[64px]" title="CSS" src="/images/skill/css.svg"></div>
@@ -70,11 +70,30 @@
 
       </div>
     </section>
+    <section class="w-full flex justify-center items-center flex-col">
+      <div class="flex flex-col justify-center items-center max-w-[1344px] w-full">
+        <div class="flex items-center"><span class="mr-6 font-bold text-[35px]">Where I've worked</span><h2 class="w-[300px] h-[1px] bg-black"></h2></div>
+        <div class="flex justify-center items-center w-full px-[100px] py-20">
+          <div class="flex flex-col tab">
+            <div class="border-l-2 p-3 px-10 w-full cursor-pointer hover:bg-sky-100">PanSoft</div>
+            <div class="border-l-2 p-3 px-10 w-full cursor-pointer hover:bg-sky-100">Stech</div>
+          </div>
+          <div class="content">
+            <div class="w-[300px]">123</div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script setup lang="ts">
-
+const job = [
+  {
+    name: 'Pansoft',
+    
+  }
+]
 </script>
 
 <style scoped>
