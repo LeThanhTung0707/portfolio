@@ -19,6 +19,10 @@ export default defineNuxtConfig({
         },
         {
           href:"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css", rel:"stylesheet"
+        },
+        {
+          rel: "stylesheet",
+          href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
         }
       ]
     }
